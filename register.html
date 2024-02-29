@@ -32,9 +32,17 @@
     <input type="text" placeholder="Last Name"/>
 </div>
     <div>
-        <button style="color: red;" id="Register">Register</button>
-        <button style="color: blue;" id="Cancel">Cancel</button>
+       <a href="index.html"> <button id="btnRegister" style="color: red;" id="Register">Register</button>
+        <button id="Cancel" style="color: blue;" id="Cancel">Cancel</button></a>
     </div>
+    <script>
+        console.log("Helllo Wordls");
 
+        let buttonLogin = document.querySelector('#btnRegister');
+        buttonLogin.onclick = function()
+        {
+            alert("Register Succesful")
+        };
+    </script>
 </body>
 </html>
