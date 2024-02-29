@@ -19,11 +19,21 @@
     </div>
 
     <div>
-        <button style="color: red;">Login</button>
-       <button style="color: blue;">Register</button></a>
+        <button id="btnLogin" style="color: red;">Login</button>
+      <a href="./register.html"> <button style="color: blue;">Register</button></a>
     </div>
     <div>
     </div>
     </div>
+    <script>
+        console.log("Helllo Wordls");
+
+        let buttonLogin = document.querySelector('#btnLogin');
+        buttonLogin.onclick = function()
+        {
+            alert("Succesfully Logged in!")
+        };
+    </script>
+
     </body>
 </html>
